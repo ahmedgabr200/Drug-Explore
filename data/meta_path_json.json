@@ -1,0 +1,46 @@
+{"disease": {"node_type": "disease", "layer1_score": {"disease_disease": 0.589198947, "contraindication": 0.3533019125, "disease_protein": 0.4843466878, "off-label use": 0.5433932543, "indication": 0.4230808616, "exposure_disease": 0.4623097777, "disease_phenotype": 0.9191009998}, "layer0_score": {"disease_disease": {"disease_disease": 0.729144752, "disease_protein": 0.4952068031, "indication": 0.4907179773, "disease_phenotype": 0.9504025578, "contraindication": 0.4028662145, "exposure_disease": 0.5748930573, "off-label use": 0.6290633082}, "contraindication": {"indication": 0.502245903, "contraindication": 0.4652965963, "drug_drug": 0.3469222188, "drug_targets": 0.5474517345, "off-label use": 0.6895344257, "side_effect": 0.3908568025}, "disease_protein": {"bioprocess_protein": 0.5710622668, "molfunc_protein": 0.5344494581, "disease_protein": 0.6422441602, "protein_protein": 0.564714849, "pathway_protein": 0.442199558, "phenotype_protein": 0.6384711266, "cellcomp_protein": 0.3583753407}, "off-label use": {"indication": 0.6962057352, "off-label use": 0.739628613, "drug_drug": 0.3127162457, "contraindication": 0.6538790464, "side_effect": 0.5857445598, "drug_targets": 0.7013602853}, "indication": {"indication": 0.6005495787, "drug_targets": 0.5090054274, "side_effect": 0.4617708623, "off-label use": 0.7533304691, "contraindication": 0.5331991911, "drug_drug": 0.2463793904}, "exposure_disease": {"exposure_disease": 0.5591828227, "exposure_bioprocess": 0.8019869924, "exposure_exposure": 0.6390470266, "exposure_protein": 0.9593862295, "exposure_molfunc": 0.8900344968}, "disease_phenotype": {"disease_phenotype": 0.9011780024, "phenotype_phenotype": 0.9298424721, "side_effect": 0.2140906602, "phenotype_protein": 0.3289939761}}}, "drug": {"node_type": "drug", "layer1_score": {"contraindication": 0.4861183167, "side_effect": 0.4259220362, "indication": 0.4363903701, "drug_drug": 0.126581341, "drug_targets": 0.2849129438, "off-label use": 0.6233501434}, "layer0_score": {"contraindication": {"contraindication": 0.2890639305, "indication": 0.435240984, "exposure_disease": 0.5110964775, "disease_disease": 0.3072634339, "off-label use": 0.5481090546, "disease_protein": 0.0138236247}, "side_effect": {"phenotype_phenotype": 0.9190779924, "side_effect": 0.1975388676, "phenotype_protein": 0.4100386202, "disease_phenotype": 0.9132231474}, "indication": {"indication": 0.3589397371, "off-label use": 0.5297383666, "contraindication": 0.3652060032, "exposure_disease": 0.5562316775, "disease_disease": 0.3135554492, "disease_protein": 0.0253111776}, "drug_drug": {"drug_drug": 0.2093438357, "indication": 0.5069004297, "drug_targets": 0.3587202132, "contraindication": 0.4271316528, "side_effect": 0.3639251292, "off-label use": 0.6409473419}, "drug_targets": {"drug_targets": 0.201953873, "anatomy_protein_absent": 0.0044290181, "exposure_protein": 0.5698441267, "anatomy_protein_present": 0.0054862243, "pathway_protein": 0.171287775}, "off-label use": {"off-label use": 0.512989521, "indication": 0.3724687696, "disease_disease": 0.3183206618, "contraindication": 0.4005320072, "exposure_disease": 0.6171851754, "disease_protein": 0.1523171663}}}}             "indication": 0.435240984,
+                "exposure_disease": 0.5110964775,
+                "disease_disease": 0.3072634339,
+                "off-label use": 0.5481090546,
+                "disease_protein": 0.0138236247
+            },
+            "side_effect": {
+                "phenotype_phenotype": 0.9190779924,
+                "side_effect": 0.1975388676,
+                "phenotype_protein": 0.4100386202,
+                "disease_phenotype": 0.9132231474
+            },
+            "indication": {
+                "indication": 0.3589397371,
+                "off-label use": 0.5297383666,
+                "contraindication": 0.3652060032,
+                "exposure_disease": 0.5562316775,
+                "disease_disease": 0.3135554492,
+                "disease_protein": 0.0253111776
+            },
+            "drug_drug": {
+                "drug_drug": 0.2093438357,
+                "indication": 0.5069004297,
+                "drug_targets": 0.3587202132,
+                "contraindication": 0.4271316528,
+                "side_effect": 0.3639251292,
+                "off-label use": 0.6409473419
+            },
+            "drug_targets": {
+                "drug_targets": 0.201953873,
+                "anatomy_protein_absent": 0.0044290181,
+                "exposure_protein": 0.5698441267,
+                "anatomy_protein_present": 0.0054862243,
+                "pathway_protein": 0.171287775
+            },
+            "off-label use": {
+                "off-label use": 0.512989521,
+                "indication": 0.3724687696,
+                "disease_disease": 0.3183206618,
+                "contraindication": 0.4005320072,
+                "exposure_disease": 0.6171851754,
+                "disease_protein": 0.1523171663
+            }
+        }
+    }
+}
